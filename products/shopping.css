@@ -1,0 +1,73 @@
+/* Add this CSS for shopping cart item styles */
+
+/* .cart {
+    /* ... Existing styles ... */
+  /* } */
+  
+  /* .cart h2 { */
+    /* ... Existing styles ... */
+  /* } */ */
+  
+  .cart-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .cart-item img {
+    max-width: 60px;
+    max-height: 60px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .cart-item-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-item-name {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .cart-item-price {
+    font-size: 1rem;
+    color: #777;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .remove-button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .remove-button:hover {
+    background-color: #c9302c;
+  }
+  /* Add this CSS for the shopping cart background image */
+.shopping-cart-background {
+    background-image: url('https://images.freeimages.com/images/large-previews/5e6/paint-rust-texture-1192628.jpg?fmt=webp&w=350');
+    background-size: cover; /* Adjust the background size as needed */
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px; /* Add padding to ensure content is visible over the background image */
+    color: #333; /* Set text color for visibility */
+  }
+  
+  

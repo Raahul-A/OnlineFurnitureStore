@@ -1,0 +1,90 @@
+/* Register.css */
+
+/* Style for the form container */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color:#1a1b1b;
+    /* background-color: #d41818;  */
+    /* background-image: url('https://www.freepik.com/backgrounds'); */
+  }
+  
+  /* Style for the container inside the form */
+  .Container-1 {
+    background-color: hsl(73, 87%, 85%); /* Set your container background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  /* Style for the form title */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #f71fd3; /* Set your title text color */
+  }
+  
+  /* Style for form inputs */
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #222020;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Style for the Register button */
+  button[type="submit"] {
+    background-color: #007bff; /* Set your button background color */
+    color: #161616; /* Set your button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /* Style for the "Go to Login" link */
+  span p {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  span p i a {
+    color: #007bff; /* Set your link text color */
+    text-decoration: none;
+  }
+  
+  /* Style for the pop-up message */
+  .login-popup-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+  }
+  
+  .login-popup-register h2 {
+    background-color: #db1c1c; /* Set your popup background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    font-size: 24px;
+    color: #333; /* Set your popup text color */
+  }
+  
+  /* Style for the "User Name taken" message */
+  h4 {
+    color: #d9534f; /* Set your error text color */
+  }
+  
